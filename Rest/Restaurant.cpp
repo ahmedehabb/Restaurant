@@ -951,19 +951,19 @@ void Restaurant::SaveFile(){
 	if (coming->getOrdersdone() == coming->getOrderstoBreak())
 	{
 		if (coming->GetType() == TYPE_NRM){		
-			BreakNormalCooks.insert(coming);
 			coming->settimeatwhichhegoesbreak(CurrentTimestep);
 			coming->settimeatwhichbreakfinish();
+			BreakNormalCooks.insert(coming);
 		}
 		else if (coming->GetType() == TYPE_VGAN){
-			BreakVeganCooks.insert(coming);					
 			coming->settimeatwhichhegoesbreak(CurrentTimestep);
 			coming->settimeatwhichbreakfinish();
+			BreakVeganCooks.insert(coming);					
 		}
 		else if (coming->GetType() == TYPE_VIP){
-			BreakVipCooks.insert(coming);
-					coming->settimeatwhichhegoesbreak(CurrentTimestep);
+			coming->settimeatwhichhegoesbreak(CurrentTimestep);
 					coming->settimeatwhichbreakfinish();
+			BreakVipCooks.insert(coming);
 		}
 	}
 	else
