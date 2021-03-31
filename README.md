@@ -2,11 +2,11 @@
 Cairo University, Faculty of Engineering
 Computer Engineering Department
 Data Structures and Algorithms
-CMP102/CMPN102
-                                                    Spring 2020
-                                                    Data Structures and Algorithms
+
                                                     Restaurant Management
 Project Requirements
+
+___________________________________________________________________________________________________________________________________________________________________________
 Data Structures and Algorithms Project Requirements
 
 Objectives
